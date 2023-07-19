@@ -5,6 +5,10 @@
     font-family: 'Work Sans', sans-serif;
     /* border: 1px solid red; */
 }
+/* shared style */
+.header-nav-title-G-style{
+    color: #FF42A5;
+}
 /* Header nav Styles */
 nav {
     display: flex;
@@ -38,9 +42,7 @@ nav {
   font-weight: 700;
   line-height: normal;
 }
-.header-nav-title-G-style{
-    color: #FF42A5;
-}
+
 nav > ul{
     display: flex;
     align-items: center;
@@ -275,6 +277,21 @@ font-size: 20px;
 font-style: normal;
 font-weight: 500;
 line-height: 30px; /* 150% */
+}
+.online-content-image-icon{
+    position: relative;
+    bottom: 270px;
+    left: 100px;
+}
+.online-content-image-icon{
+    cursor: pointer;
+    transition: border-color 0.3s, color 0.3s;
+}
+.online-content-image-icon-style:hover{
+    color: #FF42A5;
+}
+.online-content-image-icon:hover{
+    color: #FF42A5;   
 }
 /* Play instantly section */
 .play-instantly-container{
