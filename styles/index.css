@@ -118,6 +118,9 @@ nav li a {
 
 .banner-content {
   background-image: url('../images/14.jpg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 901px;
   height: 700px;
   padding-left: 240px;
