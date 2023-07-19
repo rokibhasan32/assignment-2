@@ -1,0 +1,16 @@
+/* phone responsive
+@media screen and (max-width: 576px) {
+    nav,
+    ul
+    {
+        flex-direction: column;
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner-img{
+        width: 60%;
+    }
+
+
+} */
